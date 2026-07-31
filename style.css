@@ -1,8 +1,4 @@
-<html>
-	<head>
-		<title></title>
-		<style type="text/css">
-			body{
+body{
 				/*background-color: red;
 				background-image: url('d.jpeg');
 				background-repeat: no-repeat;
@@ -65,28 +61,39 @@
 			}
 			@keyframes square{
 				0%{
+					background:url('1.png') no-repeat;
 				}
-				25%{
-					transform:translate(900px,0);
-					background:red;
-					border-radius:50%;
+				10%{
+					background:url('2.png') no-repeat;
+				}
+				20%{
+					background:url('3.png') no-repeat;
+				}
+				30%{
+					background:url('4.png') no-repeat;
+				}
+				40%{
+					background:url('5.png') no-repeat;
 				}
 				50%{
-					transform:translate(900px,200px);
-					background:purple;
-					border-radius:0%;
+					background:url('6.png') no-repeat;
 				}
-				75%{
-					transform:translate(0,200px);
-					background:yellow;
-					border-radius:50%;
+				60%{
+					background:url('7.png') no-repeat;
 				}
-				100%{
-					transform:translate(0,0);
-					background:blue;
-					border-radius:0%;
+				70%{
+					background:url('8.png') no-repeat;
+				}
+				80%{
+					background:url('9.png') no-repeat;
+				}
+				90%{
+					background:url('10.png') no-repeat;
 				}
 				
+				100%{
+					background:url('11.png') no-repeat;
+				}
 			}
 			#squarearea{
 				animation-name:square;
@@ -175,60 +182,3 @@
 				background:deeporange;
 				float:left;
 			}
-		</style>
-	</head>
-	<body>	
-		<div id="rmenu">
-		</div>
-		<div id="mainarea">
-			<div id="toparea">
-				<div id="logoarea">
-				</div>
-				<div id="titlearea">
-				</div>
-			</div>
-			<div id="menuarea">
-			</div>
-			<div id ="slidearea">
-				<div id="squarearea">
-				</div>
-			</div>
-			<div id="darea">
-				<div id="leftarea">
-				</div>
-				<div id="rightarea">
-				</div>
-			</div>
-			<div id="boxarea">
-				<div class="box">
-					<img src="img.jpeg">
-					<div class="details">
-						
-					</div>
-				</div>
-				<div class="box">
-					<img src="img.jpeg">
-					<div class="details">
-						
-					</div>
-				</div>
-				<div class="box">
-					<img src="img.jpeg">
-					<div class="details">
-						
-					</div>
-				</div>
-			</div>
-			<div id="footerarea">
-				<div id="f1">
-				</div>
-				<div id="f2">
-				</div>
-				<div id="f3">
-				</div>
-				<div id="f4">
-				</div>
-			</div>
-		</div>
-	</body>
-</html>
